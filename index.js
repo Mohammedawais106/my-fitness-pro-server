@@ -70,7 +70,8 @@ console.log("helooo", port);
 
 // ✅ CORS Configuration
 const corsOptions = {
-  origin: process.env.FRONTEND_URL,
+//   origin: process.env.FRONTEND_URL,
+  origin:["https://my-fitness-pro-client.vercel.app"],
   methods: ["GET", "POST", "OPTIONS"],
   credentials: true,
 };
